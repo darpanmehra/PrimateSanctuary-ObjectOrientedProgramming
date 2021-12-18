@@ -1,0 +1,76 @@
+Sanctuary starting up...
+
+Creating Isolation with 10 cages
+Isolation Created 
+
+Creating 3 Enclosures of size 50
+Enclosure name: Enclosure 1, Size: 50, Species: Spider
+Enclosure name: Enclosure 2, Size: 50, Species: Tamarin
+Enclosure name: Enclosure 3, Size: 50, Species: Mangabey
+Enclosure Created. 
+
+<---- Monkeys found in the open world: ---->
+Monkey name: Emma
+Monkey name: Drake
+Monkey name: Emily
+Monkey name: King
+Monkey name: Kong
+Monkey name: Emma
+
+<---- Adding monkeys to sanctuary... ---->
+Error: Cannot add Monkey- Emma. A monkey with name Emma already exists in Sanctuary.
+
+<---- List of Monkeys in Isolation: ---->
+Drake (Guereza) - Male - Fruits
+Emily (Drill) - Female - Insects
+Emma (Drill) - Female - Eggs
+King (Tamarin) - Male - Fruits
+Kong (Spider) - Male - Eggs
+
+<---- Species List in the Sanctuary ---->
+Isolation: [Drill, Guereza, Spider, Tamarin]
+enclosure1: [No Species Found]
+enclosure2: [No Species Found]
+enclosure3: [No Species Found]
+
+<---- Looking up Drill Species in Housing (True = Found, False = Not Found) ---->
+Isolation: true
+enclosure1: false
+enclosure2: false
+enclosure3: false
+
+<---- Increasing Isolation size by 10 ---->
+Current Capacity = 10, Occupied = 5
+New Capacity = 20, Occupied = 5
+
+<---- Shifting Monkey - Emma to Enclosure ---->
+Monkey Shifted to Enclosure 1. Availability = 45
+
+<---- Shifting Monkey - Drake to Enclosure ---->
+Monkey Shifted to Enclosure 2. Availability = 40
+
+<---- Shifting Monkey - Emily to Enclosure ---->
+Monkey Shifted to Enclosure 1. Availability = 44
+
+<---- Shifting Monkey - King to Enclosure ---->
+Monkey Shifted to Enclosure 3. Availability = 40
+
+<---- Shifting Monkey - Kong to Enclosure ---->
+Cannot add Kong (Spider). No enclosure found for the Monkey
+
+<---- Enclosure 1 Sign Board: ---->
+Emily (Drill) - Female - Insects
+Emma (Drill) - Female - Eggs
+
+<---- Enclosure 2 Sign Board: ---->
+Drake (Guereza) - Male - Fruits
+
+<---- Enclosure 3 Sign Board: ---->
+King (Tamarin) - Male - Fruits
+
+<---- List of Monkeys in Isolation: ---->
+Kong (Spider) - Male - Eggs
+
+Shopping List (in gms): {Eggs=750, Fruits=1000, Insects=100}
+
+Process finished with exit code 0
